@@ -7,35 +7,18 @@ namespace ASP
 {
     public class Startup
     {
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
-            app.Map("/home", home =>
-            {
-                home.Map("/index", (appBuilder) =>
-                {
-                    appBuilder.Run(async (context) =>
-                        await context.Response.WriteAsync("<h1>HomePage</h1>"));
-                });
-               
-                app.Map("/about", About);
-            });
+            DefaultFilesOptions opt = new DefaultFilesOptions();
+            opt.DefaultFileNames.Clear();
+            opt.DefaultFileNames.Add("hello.html");
 
-
-            
-
-            
+            app.UseDefaultFiles(opt);
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Not found!");
-            });
-            
-        }
-        private void About(IApplicationBuilder app)
-        {
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("<h2>About</h2>");
+                await context.Response.WriteAsync("hello world");
             });
         }
     }

@@ -10,9 +10,9 @@ C:\Users\ivano\source\repos\ASP\ASP\bin\Debug\netcoreapp3.1\ASP.pdb
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.csprojAssemblyReference.cache
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\staticwebassets\ASP.StaticWebAssets.Manifest.cache
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\staticwebassets\ASP.StaticWebAssets.xml
-C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.AssemblyInfoInputs.cache
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.AssemblyInfo.cs
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.RazorTargetAssemblyInfo.cache
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.dll
 C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.pdb
+C:\Users\ivano\source\repos\ASP\ASP\obj\Debug\netcoreapp3.1\ASP.MvcApplicationPartsAssemblyInfo.cache
